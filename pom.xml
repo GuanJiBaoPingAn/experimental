@@ -14,8 +14,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -31,6 +29,21 @@
       <artifactId>jol-core</artifactId>
       <version>0.9</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/net.java.dev.jna/jna -->
+    <dependency>
+      <groupId>net.java.dev.jna</groupId>
+      <artifactId>jna</artifactId>
+      <version>3.4.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/net.java.dev.jna/jna-platform -->
+    <dependency>
+      <groupId>net.java.dev.jna</groupId>
+      <artifactId>jna-platform</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
   </dependencies>
 
   <build>
